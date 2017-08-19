@@ -7,182 +7,258 @@
 <style media="screen">
 
 body{
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: 10%;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: -2px;
 }
 
-.shannon{
-  font-family: futura, helvetica;
-  vertical-align: center;
-  line-height: 30px;
-  color: #82CCAE;
-  animation: textsize;
-  animation-duration: 1s;
-  animation-direction:alternate-reverse;
-  animation-iteration-count: infinite;
+/*Below: to remove the fridge door by clicking*/
+
+a {
+  position: absolute;
+  top: 400px;
+  margin-top: -400px;
+  content: url('assets/images/landing/closed.png');
+  width: auto;
+  height: 100vh;
+  z-index: 1;
 }
 
-.towell{
-  font-family: futura, helvetica;
-  text-align: center;
-  animation: textsize;
-  animation-duration: 1s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  mix-blend-mode: multiply;
-  color: #FBAF54;
+a:active {
+  position: absolute;
+  content: url('none');
+  width: auto;
+  height: 100vh;
 }
 
-@keyframes textsize {
-  from{font-size: 90px}
-  to{font-size: 90px}
+a:target {
+  position: absolute;
+  content: url('none');
+  width: auto;
+  height: 100vh;
 }
 
-.one{
-  display: inline-block;
-  background-color: #343434;
-  padding: 2%;
-  color: #fff;
-  width: 50px;
-  height: 50px;
-  margin: 15px;
+/*Above: to remove the fridge door by clicking*/
+
+.fridgeopen{
+  position: absolute;
+  top: 400px;
+  margin-top: -400px;
+  content: url('assets/images/landing/open.png');
+  width: auto;
+  height: 100vh;
+  z-index: -2;
 }
 
-.two{
-  display: inline-block;
-  background-color: #343434;
-  padding: 2%;
-  color: #fff;
+
+.dog{
+  position: absolute;
+  top: 280px;
+  left: 320px;
+  content: url('assets/images/landing/dogtreat.png');
+  width: 105px;
+  padding: 12px;
 }
 
-.three{
-  display: inline-block;
-  background-color: #343434;
-  padding: 2%;
-  color: #fff;
+.dog:hover {
+  background-color:
 }
 
-.four{
-  display: inline-block;
-  background-color: #343434;
-  padding: 2%;
-  color: #fff;
+.coffee{
+  position: absolute;
+  top: 260px;
+  left: 440px;
+  content: url('assets/images/landing/coffee.png');
+  width: 100px;
+  padding: 12px;
 }
 
-.five{
-  display: inline-block;
-  background-color: #343434;
-  padding: 2%;
-  color: #fff;
+.diamonds{
+  position: absolute;
+  top: 270px;
+  left: 560px;
+  content: url('assets/images/landing/diamond.png');
+  width: 100px;
+  padding: 12px;
+}
+
+.detergents{
+  position: absolute;
+  top: 220px;
+  left: 670px;
+  content: url('assets/images/landing/detergent.png');
+  width: 90px;
+  padding: 12px;
+}
+
+.hair{
+  position: absolute;
+  top: 275px;
+  left: 770px;
+  content: url('assets/images/landing/gel.png');
+  width: 90px;
+  padding: 12px;
+}
+
+.cigarettes{
+  position: absolute;
+  top: 450px;
+  left: 320px;
+  content: url('assets/images/landing/cigarette.png');
+  width: 80px;
+  padding: 12px;
+}
+
+.credit{
+  position: absolute;
+  top: 400px;
+  left: 425px;
+  content: url('assets/images/landing/credit.png');
+  width: 95px;
+  padding: 12px;
+}
+
+.sneakers{
+  position: absolute;
+  top: 402px;
+  left: 545px;
+  content: url('assets/images/landing/sneakers.png');
+  width: 105px;
+  padding: 12px;
+}
+
+.butt{
+  position: absolute;
+  top: 381px;
+  left: 670px;
+  content: url('assets/images/landing/butt.png');
+  width: 105px;
+  padding: 12px;
+}
+
+.beer{
+  position: absolute;
+  top: 367px;
+  left: 805px;
+  content: url('assets/images/landing/beer.png');
+  height: 95px;
+  padding: 12px;
+}
+
+.heavy{
+  position: absolute;
+  top: 519px;
+  left: 300px;
+  content: url('assets/images/landing/heavy.png');
+  height: 95px;
+  padding: 12px;
+}
+
+.eggs{
+  position: absolute;
+  top: 540px;
+  left: 440px;
+  content: url('assets/images/landing/eggs.png');
+  width: 115px;
+  padding: 12px;
+}
+
+.jeans{
+  position: absolute;
+  top: 500px;
+  left: 585px;
+  content: url('assets/images/landing/jeans.png');
+  height: 100px;
+  padding: 12px;
+}
+
+.lobster{
+  position: absolute;
+  top: 550px;
+  left: 670px;
+  content: url('assets/images/landing/lobster.png');
+  width: 100px;
+  padding: 12px;
+}
+
+.coke{
+  position: absolute;
+  top: 505px;
+  left: 800px;
+  content: url('assets/images/landing/coke.png');
+  height: 95px;
+  padding: 12px;
 }
 
 </style>
 
+
   </head>
   <body>
 
-<div class="shannon">SHANNON</div>
-<div class="towell">TOWELL</div>
 
 <a href="level1a.html">
-  <div class="one">
-  1A
-  </div>
-</a>
+  <div class="dog">
+  </div></a>
 
 <a href="level1b.html">
-<div class="one">
-  1B
-</div>
-</a>
+  <div class="coffee">
+  </div></a>
 
 <a href="level1c.html">
-<div class="one">
-  1C
-</div>
-</a>
-
-<br>
+  <div class="diamonds">
+  </div></a>
 
 <a href="level2a.html">
-<div class="two">
-  2A
-</div>
-</a>
+  <div class="detergents">
+  </div></a>
 
 <a href="level2b.html">
-<div class="two">
-  2B
-</div>
-</a>
+  <div class="hair">
+  </div></a>
 
-<a href="level2c.html">
-<div class="two">
-  2C
-</div>
-</a>
-
-<br>
+<a href="level12c.html">
+  <div class="cigarettes">
+  </div></a>
 
 <a href="level3a.html">
-<div class="three">
-  3A
-</div>
-</a>
+  <div class="credit">
+  </div></a>
 
 <a href="level3b.html">
-<div class="three">
-  3B
-</div>
-</a>
+  <div class="sneakers">
+  </div></a>
 
-<a href="level3C.html">
-<div class="three">
-  3C
-</div>
-</a>
-
-<br>
+<a href="level3c.html">
+  <div class="butt">
+  </div></a>
 
 <a href="level4a.html">
-<div class="four">
-  4A
-</div>
-</a>
+  <div class="beer">
+  </div></a>
 
 <a href="level4b.html">
-<div class="four">
-  4B
-</div>
-</a>
+  <div class="heavy">
+  </div></a>
 
 <a href="level4c.html">
-<div class="four">
-  4C
-</div>
-</a>
-
-<br>
+  <div class="eggs">
+  </div></a>
 
 <a href="level5a.html">
-<div class="five">
-  5A
-</div>
-</a>
+  <div class="jeans">
+  </div></a>
 
 <a href="level5b.html">
-<div class="five">
-  5B
-</div>
-</a>
+  <div class="lobster">
+  </div></a>
 
 <a href="level5c.html">
-<div class="five">
-  5C
-</div>
-</a>
+  <div class="coke">
+  </div></a>
 
+
+<div class="fridgeopen"></div>
 
 </div>
   </body>
