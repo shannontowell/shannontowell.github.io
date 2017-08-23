@@ -5,6 +5,48 @@
     <title>&#8309;&#7580;</title>
 
 <style media="screen">
+/*navigation bar*/
+.shelf{
+  position: fixed;
+  top: 80px;
+  right: 50px;
+  content: url('assets/images/landing/shelf.png');
+  width: 220px;
+}
+
+.back{
+  position: fixed;
+  top: 50px;
+  right: 200px;
+  content: url('assets/images/landing/lobster.png');
+  width: 70px;
+}
+.back:hover{
+  transform: rotate(-5deg);
+}
+
+.index{
+  position: fixed;
+  top: 15px;
+  right: 105px;
+  content: url('assets/images/landing/C.png');
+  width: 80px;
+}
+.index:hover{
+  content: url('assets/images/landing/O.png');
+}
+
+.forward{
+  position: fixed;
+  top: 60px;
+  right: 70px;
+  content: url('assets/images/landing/dogtreat.png');
+  width: 50px;
+}
+.forward:hover{
+  transform: rotate(5deg);
+}
+/*navigation bar ends*/
 
 body{
   margin-left: 10%;
@@ -80,6 +122,13 @@ h1{
 
   </head>
   <body>
+
+    <!-- navigation -->
+        <div class="shelf"></div>
+        <a href="level5b.html"><div class="back"></div></a>
+        <a href="level1a.html"><div class="forward"></div></a>
+        <a href="index.html"><div class="index"></div></a>
+    <!-- navigation ends -->
 
     <br><br>
 

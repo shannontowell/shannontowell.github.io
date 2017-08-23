@@ -5,6 +5,48 @@
     <title>&#8309;&#7495;</title>
 
 <style media="screen">
+/*navigation bar*/
+.shelf{
+  position: fixed;
+  top: 80px;
+  right: 50px;
+  content: url('assets/images/landing/shelf.png');
+  width: 220px;
+}
+
+.back{
+  position: fixed;
+  top: 10px;
+  right: 210px;
+  content: url('assets/images/landing/jeans.png');
+  height: 70px;
+}
+.back:hover{
+  transform: rotate(-5deg);
+}
+
+.index{
+  position: fixed;
+  top: 15px;
+  right: 105px;
+  content: url('assets/images/landing/C.png');
+  width: 80px;
+}
+.index:hover{
+  content: url('assets/images/landing/O.png');
+}
+
+.forward{
+  position: fixed;
+  top: 25px;
+  right: 85px;
+  content: url('assets/images/landing/coke.png');
+  height: 60px;
+}
+.forward:hover{
+  transform: rotate(5deg);
+}
+/*navigation bar ends*/
 
 body{
   margin-left: 220px;
@@ -72,6 +114,13 @@ svg{
 
   </head>
   <body>
+
+    <!-- navigation -->
+        <div class="shelf"></div>
+        <a href="level5a.html"><div class="back"></div></a>
+        <a href="level5c.html"><div class="forward"></div></a>
+        <a href="index.html"><div class="index"></div></a>
+    <!-- navigation ends -->
 
     <div class="backgroundpic">
 

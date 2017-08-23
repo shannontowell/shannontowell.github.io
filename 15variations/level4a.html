@@ -6,6 +6,49 @@
 
     <style media="screen">
 
+    /*navigation bar*/
+    .shelf{
+      position: fixed;
+      bottom: 55px;
+      right: 50px;
+      content: url('assets/images/landing/shelf.png');
+      width: 220px;
+    }
+
+    .back{
+      position: fixed;
+      bottom: 62px;
+      right: 205px;
+      content: url('assets/images/landing/butt.png');
+      width: 50px;
+    }
+    .back:hover{
+      transform: rotate(-5deg);
+    }
+
+    .index{
+      position: fixed;
+      bottom: 53px;
+      right: 105px;
+      content: url('assets/images/landing/C.png');
+      width: 80px;
+    }
+    .index:hover{
+      content: url('assets/images/landing/O.png');
+    }
+
+    .forward{
+      position: fixed;
+      bottom: 50px;
+      right: 50px;
+      content: url('assets/images/landing/heavy.png');
+      height: 60px;
+    }
+    .forward:hover{
+      transform: rotate(5deg);
+    }
+    /*navigation bar ends*/
+
     .header {
       position: fixed;
       width:700px;
@@ -35,6 +78,13 @@
 
   </head>
   <body>
+
+    <!-- navigation -->
+        <div class="shelf"></div>
+        <a href="level3b.html"><div class="back"></div></a>
+        <a href="level4b.html"><div class="forward"></div></a>
+        <a href="index.html"><div class="index"></div></a>
+    <!-- navigation ends -->
 
     <div class="header">
     <h1><strong>first things first</strong></h1>

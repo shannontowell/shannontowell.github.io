@@ -3,8 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>&#8308;&#7495;</title>
-
     <style media="screen">
+    /*navigation bar*/
+    .shelf{
+      position: fixed;
+      top: 80px;
+      right: 50px;
+      content: url('assets/images/landing/shelf.png');
+      width: 220px;
+      z-index: 2;
+    }
+
+    .back{
+      position: fixed;
+      top: 22px;
+      right: 215px;
+      content: url('assets/images/landing/beer.png');
+      height: 60px;
+      z-index: 2;
+    }
+    .back:hover{
+      transform: rotate(-5deg);
+    }
+
+    .index{
+      position: fixed;
+      top: 15px;
+      right: 105px;
+      content: url('assets/images/landing/C.png');
+      width: 80px;
+      z-index: 2;
+    }
+    .index:hover{
+      content: url('assets/images/landing/O.png');
+    }
+
+    .forward{
+      position: fixed;
+      top: 50px;
+      right: 62px;
+      content: url('assets/images/landing/eggs.png');
+      width: 60px;
+      z-index: 2;
+    }
+    .forward:hover{
+      transform: rotate(5deg);
+    }
+    /*navigation bar ends*/
 
     body{
       margin-left: 150px;
@@ -48,6 +93,13 @@
 
   </head>
   <body>
+
+    <!-- navigation -->
+        <div class="shelf"></div>
+        <a href="level4a.html"><div class="back"></div></a>
+        <a href="level4c.html"><div class="forward"></div></a>
+        <a href="index.html"><div class="index"></div></a>
+    <!-- navigation ends -->
 
     <div class="header">
     <h1>FIRST<br>THINGS<br>FIRST</h1>

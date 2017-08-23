@@ -5,6 +5,48 @@
     <title>&#179;&#7580;</title>
 
 <style media="screen">
+/*navigation bar*/
+.shelf{
+  position: fixed;
+  top: 80px;
+  right: 50px;
+  content: url('assets/images/landing/shelf.png');
+  width: 220px;
+}
+
+.back{
+  position: fixed;
+  top: 53px;
+  right: 205px;
+  content: url('assets/images/landing/sneakers.png');
+  width: 50px;
+}
+.back:hover{
+  transform: rotate(-5deg);
+}
+
+.index{
+  position: fixed;
+  top: 15px;
+  right: 105px;
+  content: url('assets/images/landing/C.png');
+  width: 80px;
+}
+.index:hover{
+  content: url('assets/images/landing/O.png');
+}
+
+.forward{
+  position: fixed;
+  top: 22px;
+  right: 85px;
+  content: url('assets/images/landing/beer.png');
+  height: 60px;
+}
+.forward:hover{
+  transform: rotate(5deg);
+}
+/*navigation bar ends*/
 
 body{
   text-align: center;
@@ -34,6 +76,13 @@ svg{
 
   </head>
   <body>
+
+    <!-- navigation -->
+        <div class="shelf"></div>
+        <a href="level3b.html"><div class="back"></div></a>
+        <a href="level4a.html"><div class="forward"></div></a>
+        <a href="index.html"><div class="index"></div></a>
+    <!-- navigation ends -->
 
     <h1>FIRST THINGS FIRST</h1>
 

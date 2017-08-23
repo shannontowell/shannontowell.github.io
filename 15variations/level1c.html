@@ -3,8 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title>&#185;&#7580;</title>
+
+<style media="screen">
+.shelf{
+  position: fixed;
+  top: 80px;
+  right: 50px;
+  content: url('assets/images/landing/shelf.png');
+  width: 220px;
+}
+
+.back{
+  position: fixed;
+  top: 45px;
+  right: 205px;
+  content: url('assets/images/landing/coffee.png');
+  width: 50px;
+}
+.back:hover{
+  transform: rotate(-5deg);
+}
+
+.index{
+  position: fixed;
+  top: 15px;
+  right: 105px;
+  content: url('assets/images/landing/C.png');
+  width: 80px;
+}
+.index:hover{
+  content: url('assets/images/landing/O.png');
+}
+
+.forward{
+  position: fixed;
+  top: 18px;
+  right: 70px;
+  content: url('assets/images/landing/detergent.png');
+  width: 50px;
+}
+.forward:hover{
+  transform: rotate(5deg);
+}
+</style>
+
   </head>
   <body>
+
+    <div class="shelf"></div>
+    <a href="level1b.html"><div class="back"></div></a>
+    <a href="level2a.html"><div class="forward"></div></a>
+    <a href="index.html"><div class="index"></div></a>
 
     <h1>FIRST
       <br>THINGS
