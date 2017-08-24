@@ -12,195 +12,222 @@ body{
   margin-top: -2px;
 }
 
-/*Below: to remove the fridge door by clicking*/
-
-/*a {
-  position: absolute;
-  top: 400px;
-  margin-top: -400px;
+.fridge{
+  position: fixed;
+  bottom: 10px;
+  /*bottom: 10px;*/
+  margin-bottom: -10px;
+  margin-right: 200px;
+  align-self: center;
   content: url('assets/images/landing/closed.png');
-  width: auto;
-  height: 100vh;
-  z-index: 1;
+  height: auto;
+  width: 800px;
+  z-index: 2;
+  -webkit-transition:opacity 0.2s ease;
+  -moz-transition:opacity 0.2s ease;
+  -o-transition:opacity 0.2s ease;
 }
 
-a:active {
-  position: absolute;
-  content: url('none');
-  width: auto;
-  height: 100vh;
-}
-
-a:target {
-  position: absolute;
-  content: url('none');
-  width: auto;
-  height: 100vh;
-}*/
-
-/*Above: to remove the fridge door by clicking*/
-
-.fridgeopen{
-  position: absolute;
-  top: 400px;
-  margin-top: -400px;
-  content: url('assets/images/landing/open.png');
-  width: auto;
-  height: 100vh;
-  z-index: -2;
+.fridge:hover{
+  /*position: fixed;
+  top: 1420px;*/
+  opacity: 0;
+  display:'block';
+  /*z-index: -5;*/
 }
 
 
 .dog{
   position: absolute;
-  top: 280px;
+  bottom: 278px;
   left: 320px;
   content: url('assets/images/landing/dogtreat.png');
   width: 105px;
   padding: 12px;
 }
-
 .dog:hover {
-  background-color:
+  transform: rotate(5deg);
 }
 
 .coffee{
   position: absolute;
-  top: 260px;
+  bottom: 265px;
   left: 440px;
   content: url('assets/images/landing/coffee.png');
   width: 100px;
   padding: 12px;
 }
+.coffee:hover {
+  transform: rotate(5deg);
+}
 
 .diamonds{
   position: absolute;
-  top: 270px;
+  bottom: 275px;
   left: 560px;
   content: url('assets/images/landing/diamond.png');
   width: 100px;
   padding: 12px;
 }
+.diamonds:hover {
+  transform: rotate(5deg);
+}
 
 .detergents{
   position: absolute;
-  top: 220px;
+  bottom: 270px;
   left: 670px;
   content: url('assets/images/landing/detergent.png');
   width: 90px;
   padding: 12px;
 }
+.detergents:hover {
+  transform: rotate(5deg);
+}
 
 .hair{
   position: absolute;
-  top: 275px;
+  bottom: 272px;
   left: 770px;
   content: url('assets/images/landing/gel.png');
   width: 90px;
   padding: 12px;
 }
+.hair:hover {
+  transform: rotate(5deg);
+}
 
 .cigarettes{
   position: absolute;
-  top: 450px;
+  bottom: 150px;
   left: 320px;
   content: url('assets/images/landing/cigarette.png');
   width: 80px;
   padding: 12px;
 }
+.cigarettes:hover {
+  transform: rotate(5deg);
+}
 
 .credit{
   position: absolute;
-  top: 400px;
+  bottom: 142px;
   left: 425px;
   content: url('assets/images/landing/credit.png');
   width: 95px;
   padding: 12px;
 }
+.credit:hover {
+  transform: rotate(5deg);
+}
 
 .sneakers{
   position: absolute;
-  top: 402px;
+  bottom: 147px;
   left: 545px;
   content: url('assets/images/landing/sneakers.png');
   width: 105px;
   padding: 12px;
 }
+.sneakers:hover {
+  transform: rotate(5deg);
+}
 
 .butt{
   position: absolute;
-  top: 381px;
+  bottom: 145px;
   left: 670px;
   content: url('assets/images/landing/butt.png');
   width: 105px;
   padding: 12px;
 }
+.butt:hover {
+  transform: rotate(5deg);
+}
 
 .beer{
   position: absolute;
-  top: 367px;
+  bottom: 148px;
   left: 805px;
   content: url('assets/images/landing/beer.png');
   height: 95px;
   padding: 12px;
 }
+.beer:hover {
+  transform: rotate(5deg);
+}
 
 .heavy{
   position: absolute;
-  top: 519px;
+  bottom: 7px;
   left: 300px;
   content: url('assets/images/landing/heavy.png');
   height: 95px;
-  padding: 12px;
+  padding: 5px;
+}
+.heavy:hover {
+  transform: rotate(5deg);
 }
 
 .eggs{
   position: absolute;
-  top: 540px;
+  bottom: 10px;
   left: 440px;
   content: url('assets/images/landing/eggs.png');
   width: 115px;
   padding: 12px;
 }
+.eggs:hover {
+  transform: rotate(5deg);
+}
 
 .jeans{
   position: absolute;
-  top: 500px;
+  bottom: 20px;
   left: 585px;
   content: url('assets/images/landing/jeans.png');
   height: 100px;
   padding: 12px;
 }
+.jeans:hover {
+  transform: rotate(5deg);
+}
 
 .lobster{
   position: absolute;
-  top: 550px;
-  left: 670px;
+  bottom: 12px;
+  left: 685px;
   content: url('assets/images/landing/lobster.png');
   width: 100px;
-  padding: 12px;
+  /*padding: 12px;*/
+}
+.lobster:hover {
+  transform: rotate(5deg);
 }
 
 .coke{
   position: absolute;
-  top: 505px;
+  bottom: 14px;
   left: 800px;
   content: url('assets/images/landing/coke.png');
   height: 95px;
   padding: 12px;
 }
-
-/*this text hover also won't work :(  )*/
-.text{
-  opacity: 0;
-  font-family: futura, helvetica;
-  font-size: 20px;
-  background-color: #fff;
-  padding: 5px;
+.coke:hover {
+  transform: rotate(5deg);
 }
 
-.text:hover{
-  opacity: 1;
+.fridgeopen{
+  position: fixed;
+  bottom: 10px;
+  /*bottom: 10px;*/
+  margin-bottom: -10px;
+  margin-right: 200px;
+  align-self: center;
+  content: url('assets/images/landing/open.png');
+  height: auto;
+  width: 800px;
+  z-index: -2;
 }
 
 </style>
@@ -208,6 +235,8 @@ a:target {
 
   </head>
   <body>
+
+<div class="fridge"></div>
 
 
 <a href="level1a.html">
@@ -274,6 +303,5 @@ a:target {
 
 <div class="fridgeopen"></div>
 
-</div>
   </body>
 </html>
