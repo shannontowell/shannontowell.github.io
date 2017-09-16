@@ -10,124 +10,95 @@
 
 /* Start here */
 
+
 body {
-  background-color: #A8A8A8;
-  cursor: url(images/my-cursor.png), auto;
-}
-
-/*navbar*/
-.header{
-  background: #fff;
-  padding: 20px;
-  width: 20vw;
-  height: 415px;
-  position: fixed;
-  left: 5%;
-  top: 10%;
-  z-index: 10;
-}
-
-.title{
-  max-width: 100%;
-  font-family: avenir, futura, helvetica, san-serif;
-  font-size: 12px;
-  margin-top: -20px;
-  margin-left: 5px;
-}
-
-/* vvv targets all span in .nav*/
-.nav span{
-  display: block;
-  margin-right: 5px;
-  text-align: right;
-  font-family: avenir, futura, helvetica, san-serif;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.nav span:hover{
-  font-weight: bold;
-}
-
-
-.nav span img{
-  max-width: 13px;
-  z-index: 120;
-}
-
-.clearfilter{
-  opacity: 0.1;
-}
-
-.clearfilter:hover{
-  opacity: 1;
-}
-/*navbar ends*/
-
-
-h1{
-  font-family: avenir, futura, helvetica, san-serif;
-  text-align: left;
-  font-size: 30px;
-}
-
-h3{
-  font-family: avenir, futura, helvetica, san-serif;
-  text-align: left;
-}
-
-
-/*circle archive*/
-
-.container{
-  margin: 5%;
-  margin-left: 30%;
-  padding:20px;
-  background-color: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.content{
-  margin: -2px;
-  padding: 2px;
-  text-align: center;
   font-family: arial;
-  color: #000;
-  margin: 20px;
 }
 
-/*pics inside grid*/
+.container {
+  display: flex;
+  flex-wrap:wrap;
+  align-items: flex-end;
+}
 
 .item {
 }
 
-.content img{
-  max-width:100%;
-  filter: grayscale(100%);
+
+
+.item.thumbnail{
+  flex: 0 0 10%;
 }
 
-.content img:hover{
-  max-width:100%;
-  filter: grayscale(0%);
-  -webkit-animation: rotating 15s linear infinite;
+.item.full{
+  flex: 0 0 100%;
 }
 
-@keyframes rotating {
-    from{
-        -webkit-transform: rotate(0deg);
-    }
-    to{
-        -webkit-transform: rotate(360deg);
-    }
+
+
+.item img {
+  max-width: 100%;
 }
 
-.col_1of4{
-  flex: 0 0 25%;
+.col1of4 {
+  flex: 0 0 20%;
 }
 
-/*J-Query for filtering*/
+.col2of4 {
+  flex:0 0 50%;
+}
+
+.col3of4 {
+  flex:0 0 75%;
+}
+
+.spacer {
+  padding: 20px;
+}
+
+
+.header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer span:hover{
+  color: magenta;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.title{
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav{
+
+}
+
+/* vvv targets all span in .nav*/
+
+.nav span{
+  display: block;
+}
+
+.nav span:hover{
+  cursor: pointer;
+  color: blue;
+}
 
 .hide{
   display: none;
