@@ -103,6 +103,25 @@ h3{
 .item {
 }
 
+/*for lightbox*/
+/*.item.lightbox{
+  position: fixed;
+  width: 100vw;
+  height: 100vw;
+  top:0px;
+  left:0px;
+  cursor: pointer;
+  z-index: 150;
+}
+
+.item.lightbox img{
+  width: 100vw;
+  object-fit: cover;
+  z-index: 150;
+}*/
+
+/*lightbox ends*/
+
 .content img{
   max-width:100%;
   filter: grayscale(100%);

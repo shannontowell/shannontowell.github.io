@@ -80,7 +80,11 @@ $('.nav_all').click(function(event) {
 
 
 
+// lightbox
 
+// $('.item').click(function(event) {
+//   $(this).toggleClass('lightbox');
+// });
 
 
 
