@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+background-color: #f7f7f7;
+}
+
+.computer {
+  position: fixed;
+  margin-left: 338px;
+  /*margin-right: 50%;*/
+  padding: 2px;
+  /*padding-top: 5%;*/
+  z-index: 2000;
+}
+
+img{
+  padding: 2px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  width: 550px;
+}

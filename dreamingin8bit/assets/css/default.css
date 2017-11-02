@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+.container{
+  margin-left: 400px;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content{
+  position: fixed;
+  top: 118px;
+  left: 400px;
+  size: 300px;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: center;*/
+}
