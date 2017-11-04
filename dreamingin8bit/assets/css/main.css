@@ -24,3 +24,14 @@ img{
   margin-bottom: 20px;
   width: 550px;
 }
+
+.dream_swap{
+  position: fixed;
+  top: 118px;
+  left: 400px;
+  size: 300px;
+}
+
+.dream_swap img{
+  max-width: 100%;
+}

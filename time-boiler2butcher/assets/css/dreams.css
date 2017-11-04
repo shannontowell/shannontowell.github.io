@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+
+.dream_swap{
+  margin: auto;
+  width: 500px;
+}
+
+.dream_swap img{
+  max-width: 100%;
+}
+
+.default{
+  display: block;
+}
+
+.popup {
+  display: none;
+}
+
+.pixels{
+  display: none;
+}
+
+.virus{
+  display: none;
+}
+
+.error{
+  display: none;
+}
+
+.water{
+  display: none;
+}
+
+.wheel{
+  display: none;
+}
+
+.download{
+  display: none;
+}

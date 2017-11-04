@@ -1,0 +1,105 @@
+/*11pm*/
+body.h11.pm .dream_swap .default {
+  display: none;
+}
+
+body.h11.pm .dream_swap .popup {
+  display: block;
+}
+
+
+
+/*12am*/
+body.h12.am .dream_swap .default {
+  display: none;
+}
+
+body.h12.am .dream_swap .popup {
+  display: none;
+}
+
+body.h12.am .dream_swap .pixels {
+  display: block;
+}
+
+
+
+/*1am*/
+body.h1.am .dream_swap .default {
+  display: none;
+}
+
+body.h1.am .dream_swap .pixels {
+  display: none;
+}
+
+body.h1.am .dream_swap .virus {
+  display: block;
+}
+
+
+
+/*2am*/
+body.h2.am .dream_swap .default {
+  display: none;
+}
+
+body.h2.am .dream_swap .virus {
+  display: none;
+}
+
+body.h2.am .dream_swap .error {
+  display: block;
+}
+
+
+
+/*4am*/
+body.h4.am .dream_swap .default {
+  display: none;
+}
+
+body.h4.am .dream_swap .error {
+  display: none;
+}
+
+body.h4.am .dream_swap .water {
+  display: block;
+}
+
+
+
+/*6am*/
+body.h6.am .dream_swap .default {
+  display: none;
+}
+
+body.h6.am .dream_swap .water {
+  display: none;
+}
+
+body.h6.am .dream_swap .wheel {
+  display: block;
+}
+
+
+
+/*7am*/
+body.h7.am .dream_swap .default {
+  display: none;
+}
+
+body.h7.am .dream_swap .wheel {
+  display: none;
+}
+
+body.h7.am .dream_swap .download {
+  display: block;
+}
+
+
+
+/*8am*/
+body.h8.am .dream_swap .default {
+  display: block;
+}
